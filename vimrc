@@ -124,3 +124,8 @@ set fileencodings=ucs-bom,utf-8,cp936,gb18030,big5,euc-jp,euc-kr,latin1
 
 " ================ Custom Settings ========================
 so ~/.yadr/vim/settings.vim
+
+let &t_ti.="\e[1 q"
+let &t_SI.="\e[5 q"
+let &t_EI.="\e[1 q"
+let &t_te.="\e[0 q"
