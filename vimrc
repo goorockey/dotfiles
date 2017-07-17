@@ -135,3 +135,5 @@ let &t_te.="\e[0 q"
 
 set wrap linebreak
 
+
+let g:jsx_ext_required = 1
