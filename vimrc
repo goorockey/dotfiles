@@ -139,3 +139,6 @@ set wrap linebreak
 let g:jsx_ext_required = 1
 au BufRead,BufNewFile *.wpy setlocal filetype=vue.html.javascript.css
 set fileformats=unix
+
+autocmd FileType dart :call FlutterMenu()
+
