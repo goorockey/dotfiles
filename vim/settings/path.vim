@@ -2,4 +2,4 @@
 " we inherit its path. This affects :Rtags finding the right
 " path to homebrewed ctags rather than the XCode version of ctags
 " set shell=bash\ -i
-set shell=/usr/bin/zsh\ -l
+set shell=/usr/local/bin/zsh\ -l
