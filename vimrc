@@ -117,5 +117,25 @@ set smartcase       " ...unless we type a capital
 set modelines=0
 set nomodeline
 
+" ================ Encoding ===========================
+set encoding=utf-8
+set termencoding=utf-8
+set fileencodings=ucs-bom,utf-8,cp936,gb18030,big5,euc-jp,euc-kr,latin1
+
 " ================ Custom Settings ========================
 so ~/.yadr/vim/settings.vim
+
+let &t_ti.="\e[1 q"
+let &t_SI.="\e[5 q"
+let &t_EI.="\e[1 q"
+let &t_te.="\e[0 q"
+
+set wrap linebreak
+
+
+let g:jsx_ext_required = 1
+au BufRead,BufNewFile *.wpy setlocal filetype=vue.html.javascript.css
+set fileformats=unix
+
+autocmd FileType dart :call FlutterMenu()
+
