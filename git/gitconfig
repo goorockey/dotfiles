@@ -112,7 +112,7 @@
   default = upstream
 [core]
   autocrlf = false
-  editor = vim
+	editor = vim
   excludesfile = ~/.yadr/git/gitignore
 [advice]
   statusHints = false
@@ -127,3 +127,6 @@
   enabled = true
 [include]
   path = .gitconfig.user
+[user]
+	email = guojiegu@pony.ai
+	name = Guojie Gu
