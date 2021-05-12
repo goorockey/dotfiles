@@ -1,15 +1,6 @@
 source $HOME/.zprezto/runcoms/zshrc
 
-autoload -U +X bashcompinit && bashcompinit
-autoload -U +X compinit && compinit
-
 for config_file ($HOME/.yadr/zsh/*.zsh) source $config_file
-
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
-
-export GITHUB_TOKEN='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'
-export PONYAI_PATH=~/work/ponyai
-export LD_LIBRARY_PATH=$PONYAI_PATH/.sub-repos/make8-bin/shared_library
 
 # Alias definitions.
 # You may want to put all your additions into a separate file like
@@ -18,17 +9,4 @@ export LD_LIBRARY_PATH=$PONYAI_PATH/.sub-repos/make8-bin/shared_library
 
 if [ -f ~/.bash_aliases ]; then
     . ~/.bash_aliases
-fi
-
-
-if [ -f $PONYAI_PATH/.repo/repo/pony-repo-completion.sh ]; then
-	. $PONYAI_PATH/.repo/repo/pony-repo-completion.sh
-fi
-
-if [ -f $PONYAI_PATH/.sub-repos/common/scripts/make8-completion.sh ]; then
-	. $PONYAI_PATH/.sub-repos/common/scripts/make8-completion.sh
-fi
- 
-if [ -f $PONYAI_PATH/.sub-repos/common/scripts/gflag-completion.sh ]; then
-	. $PONYAI_PATH/.sub-repos/common/scripts/gflag-completion.sh
 fi
