@@ -2,3 +2,6 @@
 	path = zsh/prezto
 	url = https://github.com/sorin-ionescu/prezto.git
   ignore = dirty
+[submodule "zsh/prezto-contrib/fzf"]
+	path = zsh/prezto-contrib/fzf
+	url = https://github.com/gpanders/fzf-prezto.git

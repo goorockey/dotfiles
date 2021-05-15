@@ -260,6 +260,7 @@ def install_prezto
   puts "Installing Prezto (ZSH Enhancements)..."
 
   run %{ ln -nfs "$HOME/.yadr/zsh/prezto" "${ZDOTDIR:-$HOME}/.zprezto" }
+  run %{ ln -nfs "$HOME/.yadr/zsh/prezto-contrib" "${ZDOTDIR:-$HOME}/.zprezto-contrib" }
 
   # The prezto runcoms are only going to be installed if zprezto has never been installed
   install_files(Dir.glob('zsh/prezto-override/zshrc'), :symlink)
