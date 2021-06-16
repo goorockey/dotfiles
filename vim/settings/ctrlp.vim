@@ -18,6 +18,9 @@ endif
 " controller
 let g:ctrlp_by_filename = 1
 
+let g:ctrlp_cache_dir = $HOME . '/.cache/ctrlp'
+let g:ctrlp_clear_cache_on_exit = 0
+
 " Don't jump to already open window. This is annoying if you are maintaining
 " several Tab workspaces and want to open two windows into the same file.
 let g:ctrlp_switch_buffer = 0

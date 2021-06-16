@@ -68,6 +68,7 @@ set shiftwidth=2
 set softtabstop=2
 set tabstop=2
 set expandtab
+set colorcolumn=100
 
 " Auto indent pasted text
 nnoremap p p=`]<C-o>
@@ -142,5 +143,11 @@ set fileformats=unix
 
 if exists("FlutterMenu")
   autocmd FileType dart :call FlutterMenu()
+endif
+
+" add extra paths.
+let s:extpaths=expand("$HOME/.vim.extpaths")
+if filereadable(s:extpaths)
+    execute "source ".s:extpaths
 endif
 
