@@ -1,4 +1,3 @@
-" nmap <silent>,p :FZF<CR>
 "fzf
 nmap <leader><tab> <plug>(fzf-maps-n)
 xmap <leader><tab> <plug>(fzf-maps-x)
@@ -13,3 +12,5 @@ imap <c-x><c-l> <plug>(fzf-complete-line)
 nnoremap <silent> ,t :Files<CR>
 nnoremap <silent> ,b :Buffers<CR>
 nnoremap <silent> ,w :Windows<CR>
+
+let g:fzf_layout = {'down': '~30%'}

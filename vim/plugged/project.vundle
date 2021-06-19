@@ -1,5 +1,5 @@
 Plug 'jistr/vim-nerdtree-tabs', { 'on': 'NERDTreeToggle' }
-Plug 'preservim/nerdtree', { 'on': 'NERDTreeToggle' }
+Plug 'preservim/nerdtree'
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --bin' }
 Plug 'junegunn/fzf.vim'
 Plug 'xolox/vim-misc'
