@@ -1,2 +1,4 @@
-Plug 'dart-lang/dart-vim-plugin'
-Plug 'thosakwe/vim-flutter'
+if executable('flutter')
+  Plug 'dart-lang/dart-vim-plugin'
+  Plug 'thosakwe/vim-flutter'
+endif
