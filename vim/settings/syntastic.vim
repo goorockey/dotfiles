@@ -8,6 +8,8 @@ let g:syntastic_always_populate_loc_list=1
 "don't care about warnings
 let g:syntastic_quiet_messages = {'level': 'warnings'}
 
+let g:syntastic_check_on_open=0
+
 " Default to eslint. If you need jshint, you can override this in
 " ~/.vimrc.after
 let g:syntastic_javascript_checkers = ['eslint']
