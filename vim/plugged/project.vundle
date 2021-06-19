@@ -1,7 +1,8 @@
 Plug 'jistr/vim-nerdtree-tabs'
 Plug 'preservim/nerdtree'
-Plug 'ctrlpvim/ctrlp.vim'
-Plug 'JazzCore/ctrlp-cmatcher'
+"Plug 'ctrlpvim/ctrlp.vim'
+"Plug 'JazzCore/ctrlp-cmatcher'
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --bin' }
+Plug 'junegunn/fzf.vim'
 Plug 'xolox/vim-misc'
 Plug 'xolox/vim-session'
