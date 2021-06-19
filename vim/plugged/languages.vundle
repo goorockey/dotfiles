@@ -8,3 +8,4 @@ Plug 'skwp/vim-html-escape'
 Plug 'mxw/vim-jsx'
 Plug 'jparise/vim-graphql'
 
+Plug 'google/yapf', { 'rtp': 'plugins/vim', 'for': 'python' }
