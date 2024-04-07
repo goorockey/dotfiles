@@ -38,6 +38,7 @@ zstyle ':prezto:load' pmodule \
   'archive' \
   'fasd' \
   'git' \
+  'node' \
   'osx' \
   'ruby' \
   'syntax-highlighting' \
